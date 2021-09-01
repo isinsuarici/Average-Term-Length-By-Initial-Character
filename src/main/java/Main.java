@@ -30,7 +30,7 @@ public class Main{
             fileName += a;
         fileName = fileName.replace("|£#|", " ");
         dizi = fileName.split(" ");
-//****************************************************************
+//***************************************************************
 
         computeAvgLengthByFirstChar();
         Set pairs = calculateMinPairDist();
